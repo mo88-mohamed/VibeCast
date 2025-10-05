@@ -11,28 +11,24 @@ import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
-
+import MainNavigation from './navigation/MainNavigation';
+import { FavoritesProvider } from './contexts/FavoritesContext';
+import { NavigationContainer } from '@react-navigation/native';
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
+
     <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
+      <FavoritesProvider>
+        <NavigationContainer>
+          <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+          {/* <AppContent /> */}
+          <MainNavigation />
+        </NavigationContainer>
+      </FavoritesProvider>
     </SafeAreaProvider>
-  );
-}
 
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
   );
 }
 
