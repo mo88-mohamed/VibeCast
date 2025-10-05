@@ -136,9 +136,9 @@ To manually reload:
 For more help, see the [React Native Troubleshooting Guide](https://reactnative.dev/docs/troubleshooting).
 
 ## Screenshots
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/13cbe024-9867-41d6-b434-07ca007ea7ba" />
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/53d0835a-349a-4ce7-ab89-95fc4ad4a928" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/814757de-b005-4ec5-9192-b0f6d1f3298a" />
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/4a575d73-646f-401e-9eed-0a3e01871c57" />
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/5fc316a5-bec7-43b1-b438-db7ec0e787d4" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/f7ef04c5-57b5-418f-b2c0-f26c57ec3685" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/1461ed24-79ae-4b32-a758-6dd3feb0c1bf" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/39dee293-4c4d-41c6-9f28-b9e1ad07d7ec" />
